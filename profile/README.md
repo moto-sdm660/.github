@@ -25,7 +25,7 @@ on top of it.
 |---|---|---|:---:|:---:|:---:|
 | Moto X4 | `payton` | sdm630 | ✅ Beta | 🧪 Testing | ✅ 3.7.1 |
 | Moto G6 Plus | `evert` | sdm630 | 🔍 Looking for testers | | |
-| Moto G7 Plus | `lake` | sdm636 | 🔍 Looking for testers | | |
+| Moto G7 Plus | `lake` | sdm636 | 🚧 Work in progress | | |
 | Moto Z3 Play | `beckham` | sdm636 | 🔍 Looking for testers | | |
 
 ## What runs on 4.19
@@ -42,9 +42,10 @@ on top of it.
 
 | Repository | What it is |
 |---|---|
-| [android_kernel_motorola_sdm660](https://github.com/moto-sdm660/android_kernel_motorola_sdm660) | The 4.19 kernel: `vendor/sdm660-perf_defconfig` plus the `ext_config` fragments |
+| [android_kernel_motorola_sdm660](https://github.com/moto-sdm660/android_kernel_motorola_sdm660) | The 4.19 kernel: `vendor/sdm660-perf_defconfig` plus the `ext_config` fragments. `lineage-24.0` is the stable branch, `lineage-24.0-perf` adds performance work (MGLRU, LZ4 1.11, devfreq boost, ...) |
 | [android_device_motorola_sdm660-common](https://github.com/moto-sdm660/android_device_motorola_sdm660-common) | Configuration shared by every device |
 | [android_device_motorola_payton](https://github.com/moto-sdm660/android_device_motorola_payton) | Moto X4 device tree |
+| [android_device_motorola_lake](https://github.com/moto-sdm660/android_device_motorola_lake) | Moto G7 Plus device tree (work in progress; kernel branch `lineage-24.0-lake`) |
 | [proprietary_vendor_motorola_sdm660-common](https://github.com/moto-sdm660/proprietary_vendor_motorola_sdm660-common) · [proprietary_vendor_motorola_payton](https://github.com/moto-sdm660/proprietary_vendor_motorola_payton) | Proprietary blobs |
 | [twrp_device_motorola_payton](https://github.com/moto-sdm660/twrp_device_motorola_payton) · [android_system_vold](https://github.com/moto-sdm660/android_system_vold) | TWRP 12.1 with FBE decryption |
 | [local_manifests](https://github.com/moto-sdm660/local_manifests) | One branch per build: `lineage-24.0`, `17.0` (crDroid), `twrp-12.1` |
