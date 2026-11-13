@@ -27,6 +27,7 @@ on top of it.
 | Moto G6 Plus | `evert` | sdm630 | 🔍 Looking for testers | | |
 | Moto G7 Plus | `lake` | sdm636 | 🚧 Work in progress | | |
 | Moto Z3 Play | `beckham` | sdm636 | 🔍 Looking for testers | | |
+| Motorola One Power | `chef` | sdm636 | 🔍 Looking for testers | | |
 
 ## What runs on 4.19
 
@@ -63,16 +64,6 @@ m bacon
 
 For crDroid or TWRP, use the matching branch of
 [local_manifests](https://github.com/moto-sdm660/local_manifests).
-
-## Adding a device
-
-The common tree and the kernel are built to be shared. A new device needs:
-
-- an `ext_config/<device>.config` kernel fragment;
-- its `motorola/<device>/` device tree, one Makefile line and one Kconfig entry;
-- a device tree that inherits `sdm660-common`.
-
-If you own one of the devices above and want to help, open an issue.
 
 ## Credits
 
